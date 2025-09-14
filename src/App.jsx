@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <>
-      <div className="font-plus bg-white p-5 md:w-150 w-100 rounded-sm mx-auto shadow-xs shadow-gray-200">
+      <div className="font-plus bg-white p-5 md:w-150 w-90 rounded-sm mx-auto shadow-xs shadow-gray-200">
         <div className="flex justify-between items-center  mb-5">
           <div className="flex gap-2 items-center">
             <h5 className="text-slate-800 font-bold">Notifications</h5>
