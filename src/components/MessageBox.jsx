@@ -22,7 +22,7 @@ export function MessageBox({ data, readHandler }) {
                   <span className="text-slate-900 font-bold md:text-[12px] text-[6px]">
                     {userData.name}
                   </span>
-                  <span className="md:text-[12px] text-[8px]">
+                  <span className="md:text-[12px] text-[6px]">
                     {userData.action}
                   </span>
                   <span className="relative pr-2 text-[6px] md:text-[10px] text-slate-900 font-bold hover:text-slate-600">
@@ -31,7 +31,7 @@ export function MessageBox({ data, readHandler }) {
                       {userData.group}
                     </span>
 
-                    <span className="absolute top-[55%] right-0">
+                    <span className="absolute md:top-[56%] top-[54%] right-0">
                       {" "}
                       {!userData.read && <Status />}
                     </span>
