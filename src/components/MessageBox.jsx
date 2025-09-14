@@ -31,7 +31,7 @@ export function MessageBox({ data, readHandler }) {
                       {userData.group}
                     </span>
 
-                    <span className="absolute md:top-[56%] top-[54%] right-0">
+                    <span className="absolute md:top-[56%] top-[52%] right-0">
                       {" "}
                       {!userData.read && <Status />}
                     </span>
@@ -44,7 +44,7 @@ export function MessageBox({ data, readHandler }) {
             </div>
             {userData.chessImage && (
               <img
-                className="md:w-10 md:h-10 w-8 h-8 rounded-xl"
+                className="md:w-10 md:h-10 w-7 h-7 rounded-lg"
                 src={userData.chessImage}
                 alt="chess image"
               />
