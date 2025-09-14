@@ -31,7 +31,7 @@ export function MessageBox({ data, readHandler }) {
                       {userData.group}
                     </span>
 
-                    <span className="absolute md:top-[56%] top-[52%] right-0">
+                    <span className="absolute md:top-[56%] top-[50%] right-0">
                       {" "}
                       {!userData.read && <Status />}
                     </span>
