@@ -22,22 +22,22 @@ export function MessageBox({ data, readHandler }) {
                   <span className="text-slate-900 font-bold md:text-[12px] text-[6px]">
                     {userData.name}
                   </span>
-                  <span className="md:text-[12px] text-[6px]">
+                  <span className="md:text-[12px] text-[5px] text-gray-500">
                     {userData.action}
                   </span>
-                  <span className="relative pr-2 text-[6px] md:text-[10px] text-slate-900 font-bold hover:text-slate-600">
+                  <span className="relative pr-2 text-[5px] md:text-[10px] text-slate-900 font-bold hover:text-slate-600">
                     {userData.post}
-                    <span className="text-slate-900 font-bold md:text-[10px] text-[6px] hover:text-slate-600">
+                    <span className="text-slate-900 font-bold md:text-[10px] text-[5px] hover:text-slate-600">
                       {userData.group}
                     </span>
 
-                    <span className="absolute md:top-[56%] top-[50%] right-0">
+                    <span className="absolute md:top-[50%] right-0">
                       {" "}
                       {!userData.read && <Status />}
                     </span>
                   </span>
                 </div>
-                <span className="md:text-[10px] text-[8px] text-gray-500">
+                <span className="md:text-[10px] text-[6px] text-gray-500">
                   {userData.time}
                 </span>
               </div>
@@ -52,7 +52,7 @@ export function MessageBox({ data, readHandler }) {
           </div>
           {userData.message && (
             <div className="flex justify-end mt-3">
-              <div className=" border-1 border-gray-400 rounded-xl md:text-sm text-[10px] text-gray-500 w-[90%]  md:p-3 p-1.5 ">
+              <div className="hover:bg-gray-100 border-1 border-gray-400 rounded-xl md:text-sm text-[8px] text-gray-500 w-[90%]  md:p-3 p-1.5 ">
                 {" "}
                 <p className=""> {userData.message}</p>
               </div>
