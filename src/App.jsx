@@ -24,7 +24,7 @@ function App() {
         <div className="flex justify-between items-center  mb-5">
           <div className="flex gap-2 items-center">
             <h5 className="text-slate-800 font-bold">Notifications</h5>
-            <div className="flex justify-center items-center w-5 h-4 text-xs rounded-md  bg-slate-700 text-white">
+            <div className="flex justify-center items-center w-5 h-4 text-xs rounded-md  bg-slate-700 text-white font-plus ">
               {data.filter((user) => !user.read).length}
             </div>
           </div>
