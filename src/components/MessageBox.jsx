@@ -25,9 +25,9 @@ export function MessageBox({ data, readHandler }) {
                   <span className="md:text-[12px] text-[5px] text-gray-500">
                     {userData.action}
                   </span>
-                  <span className="relative pr-2 text-[5px] md:text-[10px] text-slate-900 font-bold hover:text-slate-600">
+                  <span className="relative pr-2 text-[4px] md:text-[10px] text-slate-900 font-bold hover:text-slate-600">
                     {userData.post}
-                    <span className="text-slate-900 font-bold md:text-[10px] text-[5px] hover:text-slate-600">
+                    <span className="text-slate-900 font-bold md:text-[10px] text-[4px] hover:text-slate-600">
                       {userData.group}
                     </span>
 
