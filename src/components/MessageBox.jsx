@@ -19,7 +19,7 @@ export function MessageBox({ data, readHandler }) {
               <img src={userData.img} className="md:w-8 md:h-8 w-6 h-6" />
               <div className="flex flex-col   items-start justify-start">
                 <div className="flex items-center gap-1">
-                  <span className="text-slate-900 font-bold md:text-[12px] text-[6px]">
+                  <span className="text-slate-900 font-bold md:text-[12px] text-[5px]">
                     {userData.name}
                   </span>
                   <span className="md:text-[12px] text-[5px] text-gray-500">
@@ -37,7 +37,7 @@ export function MessageBox({ data, readHandler }) {
                     </span>
                   </span>
                 </div>
-                <span className="md:text-[10px] text-[6px] text-gray-500">
+                <span className="md:text-[10px] text-[5px] text-gray-500">
                   {userData.time}
                 </span>
               </div>
@@ -52,7 +52,7 @@ export function MessageBox({ data, readHandler }) {
           </div>
           {userData.message && (
             <div className="flex justify-end mt-3">
-              <div className="hover:bg-gray-100 border-1 border-gray-400 rounded-xl md:text-sm text-[8px] text-gray-500 w-[90%]  md:p-3 p-1.5 ">
+              <div className="hover:bg-gray-100 border-1 border-gray-400 rounded-xl md:text-sm text-[7px] text-gray-500 w-[90%]  md:p-3 p-1.5 ">
                 {" "}
                 <p className=""> {userData.message}</p>
               </div>
